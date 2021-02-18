@@ -8,6 +8,6 @@ class PessoaTest extends TestCase
     {
         $pessoa = new Pessoa('Fabrício', new DateTimeImmutable('2001-09-18'));
 
-        $this->assertEquals($pessoa->idade(), 17);
+        $this->assertEquals($pessoa->idade(), 19);
     }
 }
